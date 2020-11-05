@@ -264,7 +264,7 @@ print("Confusion Matrix for Multilayer Perceptron Classifier:")
 print(confusion_matrix(y_test,mlp_pred))
 print("Classification Report:")
 print(classification_report(y_test,mlp_pred))
-print("accuracy score:",round(accuracy_score(y_test,mlp_pred)*100,2))
+print("accuracy score:",accuracy_score(y_test,mlp_pred))
 
 """
 Confusion Matrix for Multilayer Perceptron Classifier:
@@ -280,7 +280,7 @@ Classification Report:
    macro avg       0.90      0.88      0.89      2000
 weighted avg       0.92      0.92      0.92      2000
 
-accuracy score: 91.85
+accuracy score: 0.9185
 """
 
 # define data
