@@ -21,9 +21,11 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
 * Logistic Regression
 * CART
 * Random Forest
+* XGBOOST
+* Multilayer Percentron Classifier
 * Pegasus (Text summarization)
 
 
 **Sentiment Analysis Lexicon:**
-1.
+* NRC Word-Emotion Association Lexicon
 
