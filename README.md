@@ -11,7 +11,7 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
 * Information on 174,000 businesses
 * The data spans 11 metropolitan areas
 
-**Problem:** With an overwhelming number of user reviews being generated on various online platforms, e.g. YELP, there is an increasing movement towards using NLP techniques to extract meaninful information from the review data; one of which is Text Summarization technique. However, can we fully trust the ML model to correctly transfer the original sentiments and emotions during the process? Is there any chance of distortion or passing of original sentiments?
+**Problem:** With an overwhelming number of user reviews being generated on various online platforms, e.g. YELP, there is an increasing movement towards using NLP techniques to extract meaninful information from the review data; one of which is Text Summarization technique. However, can we fully trust the ML model to correctly transfer the original sentiments and emotions during the transformation process? Is there any chance of distortion or passing of original sentiments?
 
 **Goal:** Our goal in this project is to examine the changes in sentiment information which may occur during the text summarization process.
 
@@ -22,7 +22,7 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
 * CART
 * Random Forest
 * XGBOOST
-* Multilayer Percentron Classifier
+* Multilayer Perceptron Classifier
 * Pegasus (Text summarization)
 
 
