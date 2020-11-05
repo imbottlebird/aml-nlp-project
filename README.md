@@ -1,4 +1,4 @@
-## Sentiment Change in Text Summarization
+## Text Summarization and Sentiment Analysis
 
 #### Team:
 * Boyu Liu

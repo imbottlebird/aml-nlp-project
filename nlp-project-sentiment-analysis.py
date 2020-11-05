@@ -58,18 +58,18 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Fitting Logistic regression to the training set
-logreg = LogisticRegression(solver='lbfgs',multi_class='auto',random_state=1)
-logreg.fit(X_train, y_train)
+log_model = LogisticRegression(solver='lbfgs',multi_class='auto',random_state=1)
+log_model.fit(X_train, y_train)
 
 # Predicting the test set results
-logreg_pred = logreg.predict(X_test)
+log_pred = log_model.predict(X_test)
 
 # Training score
-print("Score on training set: ", logreg.score(X_train,y_train))
-print("Score on test set: ",logreg.score(X_test,y_test))
-print(confusion_matrix(y_test,logreg_pred))
-print(classification_report(y_test,logreg_pred))
-print("accuracy score: ",accuracy_score(y_test, logreg_pred))
+print("Score on training set: ", log_model.score(X_train,y_train))
+print("Score on test set: ",log_model.score(X_test,y_test))
+print(confusion_matrix(y_test,log_pred))
+print(classification_report(y_test,log_pred))
+print("accuracy score: ",accuracy_score(y_test, log_pred))
 
 """
 [[ 364  151]
@@ -113,7 +113,7 @@ def plot_confusion_matrix(data, labels, output_filename):
     plt.close()
 
 # define data
-data = confusion_matrix(y_test,y_pred_logreg)
+data = confusion_matrix(y_test,log_pred)
 
 # define labels
 labels = ["Negative", "Positive"]
