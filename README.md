@@ -23,6 +23,7 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
 * Random Forest
 * XGBOOST
 * Multilayer Perceptron Classifier
+* Bidirectional Encoder Representations from Transformers (BERT)
 * Pegasus (Text summarization)
 
 
