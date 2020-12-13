@@ -1,6 +1,6 @@
 ## Evaluating Sentiment Capturing of Text Summarization Models
 
-### Project for Course 6.862 Applied Machine Learning
+### Project for MIT Course 6.862 Applied Machine Learning
 ### Dataset:
 Yelp dataset available on Kaggle
 https://www.kaggle.com/yelp-dataset/yelp-dataset
