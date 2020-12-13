@@ -90,7 +90,7 @@ Our goal in this project is to examine the changes in sentiment information whic
 
 **Results - Performance scores**
 
-<img src='img/performance-scores.png' width=400>
+<img src='img/performance-scores.png' width=300><br>
 <img src='img/performance-scores2.png' width=400>
 
 **Text Summarization Model Evaluation**
@@ -99,4 +99,4 @@ Our goal in this project is to examine the changes in sentiment information whic
 
 **Evaluation Results**
 
-<img src='img/evaluation-results.png' width=400>
+<img src='img/evaluation-results.png' width=330>
