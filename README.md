@@ -1,8 +1,4 @@
-## Text Summarization and Sentiment Analysis
-
-### Team:
-* Boyu Liu
-* ByeongJo Kong
+## Evaluating Sentiment Capturing of Text Summarization Models
 
 ### Dataset:
 Yelp dataset available on Kaggle
@@ -33,60 +29,7 @@ Our goal in this project is to examine the changes in sentiment information whic
 ### Sentiment Analysis:
 
 **Performance comparison**
-<img src='img/comparison.png'>
-
-<!-- <table>
-  <tr align='center' bgcolor='grey' style="font-weight:bold">
-    <td>No.</td>
-    <td style="width:140px">Model</td>
-    <td>Library</td>
-    <td>Data</td>
-    <td>Preprocessing</td>
-  </tr>
-  <tr>
-    <td align='center'>1</td>
-    <td>Logistic Regression</td>
-    <td rowspan='5'>Scikit learn, nltk</td>
-    <td rowspan='5'>30,000 balanced reviews</td>
-    <td rowspan='5'>
-    <ol>
-    <li>Convert to lowercase</li>
-    <li>Remove stopwords + punctuations + repetitive characters</li>
-    <li>Lemmatize</li>
-    <li>TF-IDF vectorization</li>
-    </td>
-  </tr>
-  <tr align='center'>
-    <td>2</td>
-    <td>CART</td>
-  </tr>
-  <tr align='center'>
-    <td>3</td>
-    <td>Random Forest</td>
-  </tr>
-  <tr align='center'>
-    <td>4</td>
-    <td>XGBoost</td>
-  </tr>
-  <tr align='center'>
-    <td>5</td>
-    <td>Multilayer Perceptron</td>
-  </tr>
-  <tr>
-    <td align='center'>6</td>
-    <td align='center'>BERT</td>
-    <td>Transformers (Huggingface)</td>
-    <td>Pretrained model (Huggingface) + 30,000 balanced reviews</td>
-    <td>
-    <ol>
-    <li>Word2Index</li>
-    <li>Tokenize using BERT-required special tokens</li>
-    <li>Padding</li>
-    <li>Attention mask</li>
-    </ol>
-    </td>
-  </tr>
-</table> -->
+<img src='img/comparison.png' width=600>
 
 **Results - Performance scores**
 
@@ -106,5 +49,5 @@ Our goal in this project is to examine the changes in sentiment information whic
 
 **Conclusion**
 * Compared to the baseline (randomly generated sentiments), the ML algorithm does a good job overall in capturing the original sentiments
-* However, there is still room for improvement if you compare the score with the human-generated summaries
+* However, there is still room for improvement compared to the human-generated summaries
 
