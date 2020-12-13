@@ -12,7 +12,7 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
 With an overwhelming number of user reviews being generated on various online platforms, e.g. YELP, there is an increasing movement towards using NLP techniques to extract meaninful information from the review data; one of which is Text Summarization technique. However, can we fully trust the ML model to correctly transfer the sentiments from the original text to the summarized text? Is there any risk of distortion of original sentiments?
 
 ### Goal:
-Our goal in this project is to examine the changes in sentiment information which may occur during the text summarization process.
+Our goal in this project is to measure the accuracy of text summarization models in capturing the sentiment information embedded in the original text reviews.
 
 
 ### ML algorithms:
