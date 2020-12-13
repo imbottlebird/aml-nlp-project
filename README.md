@@ -90,7 +90,7 @@ Our goal in this project is to examine the changes in sentiment information whic
 
 **Results - Performance scores**
 
-<img src='img/performance-scores.png' width=300><br>
+<img src='img/performance-scores.png' width=330><br>
 <img src='img/performance-scores2.png' width=400>
 
 ### Text Summarization:
@@ -102,3 +102,9 @@ Our goal in this project is to examine the changes in sentiment information whic
 **Evaluation Results**
 
 <img src='img/evaluation-results.png' width=330>
+<br>
+
+**Conclusion**
+* Compared to the baseline (randomly generated sentiments), the ML algorithm does a good job overall in capturing the original sentiments
+* However, there is still room for improvement if you compare the score with the human-generated summaries
+
