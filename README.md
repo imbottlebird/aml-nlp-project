@@ -26,7 +26,7 @@ Our goal in this project is to examine the changes in sentiment information whic
 * Pegasus (Text summarization)
 
 ### Methods:
-<img src='img/methods.png' width=500>
+<img src='img/methods.png' width=650>
 <br>
 
 ### Sentiment Analysis:
