@@ -41,10 +41,10 @@ Our goal in this project is to examine the changes in sentiment information whic
 <img src='img/performance-scores.png' width=330><br>
 <img src='img/performance-scores2.png' width=400>
 
-BERT (a contextual language model) outperformed other models by a large margin
+* BERT (a contextual language model) outperformed other models by a large margin
 
 ### Text Summarization:
-Based on the reviews of 70 businesses with human-generated summaries for benchmark analysis
+* Based on the reviews of 70 businesses with human-generated summaries for benchmark analysis.
 
 **Model Evaluation**
 
