@@ -25,22 +25,31 @@ Our goal in this project is to examine the changes in sentiment information whic
 * Bidirectional Encoder Representations from Transformers (BERT)
 * Pegasus (Text summarization)
 
+### Methods:
+<img src='img/methods.png'>
+<br>
 
 ### Sentiment Analysis:
 
-**Performance comparison**
-<img src='img/comparison.png' width=600>
+**Comparative Analysis of 6 ML models**
 
-**Results - Performance scores**
+<img src='img/comparison.png' width=700>
+<br>
+
+**Performance scores**
 
 <img src='img/performance-scores.png' width=330><br>
 <img src='img/performance-scores2.png' width=400>
 
+**Conclusion**
+* BERT, a contextual language model, outperformed other models by a large margin
+
 ### Text Summarization:
+Based on the reviews of 70 businesses with human-generated summaries for benchmark analysis
 
 **Model Evaluation**
 
-<img src='img/evaluation.png' align='middle'>
+<img src='img/evaluation.png' align='middle' width=500>
 
 **Evaluation Results**
 
