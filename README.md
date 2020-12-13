@@ -33,7 +33,7 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
 <table>
   <tr align='center' bgcolor='grey' style="font-weight:bold">
     <td>No.</td>
-    <td>Model</td>
+    <td style="width:140px">Model</td>
     <td>Library</td>
     <td>Data</td>
     <td>Preprocessing</td>
@@ -69,7 +69,7 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
   </tr>
   <tr>
     <td>6</td>
-    <td>BERT</td>
+    <td align='center'>BERT</td>
     <td>Transformers (Huggingface)</td>
     <td>Pretrained model (Huggingface) + 30,000 balanced reviews</td>
     <td>
@@ -84,13 +84,13 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
 </table>
 
 *Results - Performance scores*
-<table style="width:350px" >
+<table>
 <tr align='center' bgcolor='grey' style="font-weight:bold">
     <td colspan=2>Performance scores</td>
 </tr>
 <tr align='center' bgcolor='grey'>
 <td>Model</td>
-<td>Accuracy</td>
+<td style="width:120px">Accuracy</td>
 </tr>
 <tr align='center'>
 <td>Logistic Regression</td>
