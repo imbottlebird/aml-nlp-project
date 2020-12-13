@@ -1,22 +1,25 @@
 ## Text Summarization and Sentiment Analysis
 
-#### Team:
+### Team:
 * Boyu Liu
 * ByeongJo Kong
 
-**Dataset:** Yelp dataset available on Kaggle
+### Dataset:
+Yelp dataset available on Kaggle
 https://www.kaggle.com/yelp-dataset/yelp-dataset
 
 * 5,200,000 user reviews
 * Information on 174,000 businesses
 * The data spans 11 metropolitan areas
 
-**Problem:** With an overwhelming number of user reviews being generated on various online platforms, e.g. YELP, there is an increasing movement towards using NLP techniques to extract meaninful information from the review data; one of which is Text Summarization technique. However, can we fully trust the ML model to correctly transfer the sentiments from the original text to the summarized text? Is there any risk of distortion of original sentiments?
+### Problem:
+With an overwhelming number of user reviews being generated on various online platforms, e.g. YELP, there is an increasing movement towards using NLP techniques to extract meaninful information from the review data; one of which is Text Summarization technique. However, can we fully trust the ML model to correctly transfer the sentiments from the original text to the summarized text? Is there any risk of distortion of original sentiments?
 
-**Goal:** Our goal in this project is to examine the changes in sentiment information which may occur during the text summarization process.
+### Goal:
+Our goal in this project is to examine the changes in sentiment information which may occur during the text summarization process.
 
 
-**ML algorithms:**
+### ML algorithms:
 * TF-IDF
 * Logistic Regression
 * CART
@@ -27,9 +30,9 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
 * Pegasus (Text summarization)
 
 
-**Sentiment Analysis**
+### Sentiment Analysis
 
-*Performance comparison*
+**Performance comparison**
 <img src='img/comparison.png'>
 
 <!-- <table>
@@ -85,9 +88,10 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
   </tr>
 </table> -->
 
-*Results - Performance scores*
-<img src='img/performance-scores.png'>
-<img src='img/performance-scores2.png'>
+**Results - Performance scores**
+
+<img src='img/performance-scores.png' width=400>
+<img src='img/performance-scores2.png' width=400>
 
 **Text Summarization Model Evaluation**
 
@@ -95,4 +99,4 @@ https://www.kaggle.com/yelp-dataset/yelp-dataset
 
 **Evaluation Results**
 
-<img src='img/evaluation-results.png'>
+<img src='img/evaluation-results.png' width=400>
