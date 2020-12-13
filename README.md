@@ -30,7 +30,7 @@ Our goal in this project is to examine the changes in sentiment information whic
 * Pegasus (Text summarization)
 
 
-### Sentiment Analysis
+### Sentiment Analysis:
 
 **Performance comparison**
 <img src='img/comparison.png'>
@@ -93,7 +93,9 @@ Our goal in this project is to examine the changes in sentiment information whic
 <img src='img/performance-scores.png' width=300><br>
 <img src='img/performance-scores2.png' width=400>
 
-**Text Summarization Model Evaluation**
+### Text Summarization:
+
+**Model Evaluation**
 
 <img src='img/evaluation.png' align='middle'>
 
